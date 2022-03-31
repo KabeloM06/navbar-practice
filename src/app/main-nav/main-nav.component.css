@@ -6,6 +6,28 @@
   width: 200px;
 }
 
+.main-nav-items {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.linkTags {
+  color: aliceblue;
+}
+
+@media (max-width: 959px) {
+  .main-nav-items {
+    display: none;
+  }
+}
+
+@media (min-width: 959px) {
+  .sidenav {
+    display: none;
+  }
+}
+
 .sidenav .mat-toolbar {
   background: inherit;
 }
