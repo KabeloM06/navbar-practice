@@ -8,16 +8,22 @@
 
 .main-nav-items {
   display: flex;
-  justify-content: space-between;
+  justify-items: space-between;
   
 }
 
+a {
+  margin-left: 20px;
+}
+
 .linkTags {
-  color: aliceblue;
+  
+  position: absolute;
+  left: 75%;
 }
 
 @media (max-width: 959px) {
-  .main-nav-items {
+  .linkTags {
     display: none;
   }
 }
